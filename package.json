@@ -4,7 +4,7 @@
     "mongodb": "^6.3.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "dev": "node server.js"
   },
   "name": "api",
   "version": "1.0.0",
