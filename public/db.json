@@ -1,0 +1,43 @@
+{"weather": [{
+    "id":1,
+    "city":"New Haven",
+    "temperature": 10.65,
+    "humidity": "58%",
+    "weather": "clear sky"
+
+},
+{
+    "id":2,
+    "city":"Bengaluru",
+    "temperature": 21.80,
+    "humidity": "88%",
+    "weather": "scattered clouds"
+},
+{
+    "id":3,
+    "city":"Tokyo",
+    "temperature": 12.26,
+    "humidity": "75%",
+    "weather": "few clouds"
+},
+{
+    "id":4,
+    "city":"London",
+    "temperature": 5.17,
+    "humidity": "91%",
+    "weather": "broken clouds"
+},
+  {
+    "id":5,
+    "city":"Bangkok",
+    "temperature": 25.19,
+    "humidity": "71%",
+    "weather": "scattered clouds"
+},
+{
+    "id":6,
+    "city":"Los Angeles",
+    "temperature": 17.15,
+    "humidity": "35%",
+    "weather": "clear sky"
+}]}
