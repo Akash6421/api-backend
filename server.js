@@ -56,8 +56,8 @@ const server = http.createServer((req, res) => {
         res.end(JSON.stringify({ weather: weatherData }));
       } else {
         // Handle other routes or serve your portfolio website
-        res.writeHead(200, { 'Content-Type': 'text/html' });
-        res.end('<h1>Your Portfolio Website</h1>');
+        //res.writeHead(200, { 'Content-Type': 'text/html' });
+        res.end('<h1>Nothing is here</h1>');
       }
     });
 
@@ -70,7 +70,7 @@ const server = http.createServer((req, res) => {
 
 // it will first try to look for
 // environment variable, if not found then go for 1482
-const PORT= process.env.PORT || 1445;
+const PORT= process.env.PORT || 10000;
 
 // port, callback
 server.listen(PORT,()=> console.log(`Great our server is running on port ${PORT} `));
